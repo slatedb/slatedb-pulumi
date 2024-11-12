@@ -1,0 +1,11 @@
+name: slatedb-pulumi
+description: Pulumi scripts to manage SlateDB committer access to various infrastructure resources.
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: python
