@@ -6,7 +6,7 @@ Github, Discord, and Crates.io.
 
 from dataclasses import dataclass
 
-from resources import github
+from resources import discord, github
 
 @dataclass
 class Maintainer:
@@ -20,19 +20,19 @@ MAINTAINERS = [
     Maintainer(
         name="Chris Riccomini",
         github="criccomini",
-        discord="criccomini",
+        discord="839536195603922974",
         crates="criccomini",
     ),
     Maintainer(
         name="Rohan Desai",
         github="rodesai",
-        discord="",
+        discord="1144686022010097794",
         crates="",
     ),
     Maintainer(
         name="Vignesh Chandramohan",
         github="vigneshc",
-        discord="",
+        discord="894942567513337887",
         crates="",
     ),
     Maintainer(
@@ -44,7 +44,7 @@ MAINTAINERS = [
     Maintainer(
         name="Li Yazhou",
         github="flaneur2020",
-        discord="",
+        discord="965845316370833408",
         crates="",
     ),
 ]
@@ -53,6 +53,7 @@ MAINTAINERS = [
 def main():
     for maintainer in MAINTAINERS:
         github.add_org_owner(maintainer.github)
+        discord.assign_committer_role(maintainer.discord)
 
     # Special case for slatedb-go, which is owned by Naveen right now
     github.add_repo_owner("naveen246", "slatedb-go")
