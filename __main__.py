@@ -21,6 +21,7 @@ MAINTAINERS = [
         github="criccomini",
         discord="839536195603922974",
     ),
+    """
     Maintainer(
         name="Rohan Desai",
         github="rodesai",
@@ -41,6 +42,7 @@ MAINTAINERS = [
         github="flaneur2020",
         discord="965845316370833408",
     ),
+    """
 ]
 
 
