@@ -1,7 +1,19 @@
 name: slatedb-pulumi
 description: Pulumi scripts to manage SlateDB committer access to various infrastructure resources.
 runtime: yaml
-config: {'pulumi:tags': {value: {'pulumi:template': yaml}}}
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: yaml
+  # Github organization to manage
+  github:owner:
+      value: slatedb
 variables: {}
-resources: {}
+resources:
+  github-member-criccomini:
+    type: github:index:Membership
+    name: github_member_criccomini
+    properties:
+      username: criccomini
+      role: admin
 outputs: {}
