@@ -6,6 +6,7 @@ grpcio==1.66.2
 parver==0.5
 protobuf==4.25.5
 pulumi==3.138.0
+pulumi_command==1.0.1
 pulumi_discord @ file:./sdks/discord
 pulumi_github==6.3.2
 PyYAML==6.0.2
