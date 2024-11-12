@@ -21,28 +21,26 @@ MAINTAINERS = [
         github="criccomini",
         discord="839536195603922974",
     ),
-    """
-    Maintainer(
-        name="Rohan Desai",
-        github="rodesai",
-        discord="1144686022010097794",
-    ),
-    Maintainer(
-        name="Vignesh Chandramohan",
-        github="vigneshc",
-        discord="894942567513337887",
-    ),
-    Maintainer(
-        name="Paul Butler",
-        github="paulgb",
-        discord="",
-    ),
-    Maintainer(
-        name="Li Yazhou",
-        github="flaneur2020",
-        discord="965845316370833408",
-    ),
-    """
+    # Maintainer(
+    #     name="Rohan Desai",
+    #     github="rodesai",
+    #     discord="1144686022010097794",
+    # ),
+    # Maintainer(
+    #     name="Vignesh Chandramohan",
+    #     github="vigneshc",
+    #     discord="894942567513337887",
+    # ),
+    # Maintainer(
+    #     name="Paul Butler",
+    #     github="paulgb",
+    #     discord="",
+    # ),
+    # Maintainer(
+    #     name="Li Yazhou",
+    #     github="flaneur2020",
+    #     discord="965845316370833408",
+    # ),
 ]
 
 
