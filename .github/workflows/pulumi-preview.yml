@@ -26,12 +26,11 @@ jobs:
           override: true
 
       - name: Set up Pulumi with S3 backend
-        run: pulumi login s3://slatedb-pulumi
+        run: pulumi login s3://slatedb-pulumi?endpoint=fly.storage.tigris.dev
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: "auto"
-          PULUMI_BACKEND_URL: "https://fly.storage.tigris.dev"
           PULUMI_CONFIG_PASSPHRASE: ${{ secrets.PULUMI_CONFIG_PASSPHRASE }}
 
       - name: Run Pulumi Preview
