@@ -24,14 +24,23 @@ jobs:
         with:
           toolchain: stable
           override: true
-  
+
+      - name: Download Pulumi state
+        uses: actions/download-artifact@v4
+        with:
+          name: pulumi-state
+          path: .pulumi/stacks
+
+      - name: Set up Pulumi for local state
+        run: pulumi login --local
+
       - name: Run Pulumi Preview
         uses: pulumi/actions@v6
         with:
           command: preview
           stack-name: slatedb-pulumi/prod
         env:
-          PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
           CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
+          PULUMI_CONFIG_PASSPHRASE: ${{ secrets.PULUMI_CONFIG_PASSPHRASE }}
