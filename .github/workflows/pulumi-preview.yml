@@ -31,7 +31,7 @@ jobs:
           command: preview
           stack-name: organization/prod
           cloud-url: s3://slatedb-pulumi?endpoint=fly.storage.tigris.dev&region=auto
-          work-dir: ${{ github.workspace }}
+          upsert: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
