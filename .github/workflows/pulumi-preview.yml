@@ -32,6 +32,7 @@ jobs:
           stack-name: organization/prod
           cloud-url: s3://slatedb-pulumi?endpoint=fly.storage.tigris.dev&region=auto
           upsert: true
+          comment-on-pr: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
