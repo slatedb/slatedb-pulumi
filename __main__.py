@@ -48,7 +48,8 @@ def main():
     for maintainer in MAINTAINERS:
         github.add_org_owner(maintainer.github)
         discord.assign_committer_role(maintainer.discord)
-        crates.add_owner(maintainer.github)
+        crates.add_owner(maintainer.github, "slatedb")
+        crates.add_owner(maintainer.github, "fail-parallel")
 
     # Special case for slatedb-go, which is owned by Naveen right now
     github.add_repo_owner("naveen246", "slatedb-go")
