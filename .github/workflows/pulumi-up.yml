@@ -7,7 +7,7 @@ on:
 
 jobs:
   pulumi-preview:
-    name: Pulumi Preview
+    name: Pulumi Up
     runs-on: ubuntu-latest
 
     steps:
