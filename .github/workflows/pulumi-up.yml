@@ -19,11 +19,8 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install Rust toolchain
-        uses: actions-rs/toolchain@v1
-        with:
-          toolchain: stable
-          override: true
+      - name: Set up Rust stable
+        run: rustup default stable
 
       - name: Run Pulumi Up
         uses: pulumi/actions@v6
