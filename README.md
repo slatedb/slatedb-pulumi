@@ -4,7 +4,7 @@ Pulumi scripts to manage SlateDB committer access to various infrastructure reso
 
 ## Pulumi State
 
-The Pulumi state is stored in an S3 bucket called `slatedb-pulumi` stack. [@criccomini](https://github.com/criccomini) created a bucket on Tigris for this purpose. Eventually, we might want to migrate to Pulumi Cloud or AWS S3.
+The Pulumi state is stored in Pulumi Cloud. The state is stored in the `slatedb` organization. The state is stored in the `slatedb-pulumi/prod` stack.
 
 ## Environment Variables
 
