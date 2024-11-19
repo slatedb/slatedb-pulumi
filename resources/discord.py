@@ -3,7 +3,7 @@ import pulumi_discord
 
 def assign_committer_role(user: str):
     pulumi_discord.MemberRoles(
-        f"assign_committer_role_{user}",
+        f"assign_discord_committer_role_{user}",
         # 1232385660460204122 is the server ID for the "SlateDB" server
         server_id="1232385660460204122",
         user_id=user,
