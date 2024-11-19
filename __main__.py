@@ -34,7 +34,7 @@ MAINTAINERS = [
     # Maintainer(
     #     name="Paul Butler",
     #     github="paulgb",
-    #     discord="",
+    #     discord="534035699565854720",
     # ),
     # Maintainer(
     #     name="Li Yazhou",
