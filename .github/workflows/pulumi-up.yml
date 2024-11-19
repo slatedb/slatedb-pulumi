@@ -19,9 +19,6 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Set up Rust stable
-        run: rustup default stable
-
       - name: Run Pulumi Up
         uses: pulumi/actions@v6
         with:
