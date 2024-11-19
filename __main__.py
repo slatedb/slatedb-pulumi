@@ -36,11 +36,11 @@ MAINTAINERS = [
     #     github="paulgb",
     #     discord="534035699565854720",
     # ),
-    # Maintainer(
-    #     name="Li Yazhou",
-    #     github="flaneur2020",
-    #     discord="965845316370833408",
-    # ),
+    Maintainer(
+        name="Li Yazhou",
+        github="flaneur2020",
+        discord="965845316370833408",
+    ),
 ]
 
 
