@@ -28,6 +28,7 @@ jobs:
         with:
           command: preview
           stack-name: slatedb/slatedb-pulumi/prod
+          comment-on-pr: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
