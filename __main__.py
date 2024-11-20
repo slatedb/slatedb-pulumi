@@ -21,11 +21,11 @@ MAINTAINERS = [
         github="criccomini",
         discord="839536195603922974",
     ),
-    # Maintainer(
-    #     name="Rohan Desai",
-    #     github="rodesai",
-    #     discord="1144686022010097794",
-    # ),
+    Maintainer(
+        name="Rohan Desai",
+        github="rodesai",
+        discord="1144686022010097794",
+    ),
     # Maintainer(
     #     name="Vignesh Chandramohan",
     #     github="vigneshc",
