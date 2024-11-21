@@ -26,16 +26,16 @@ MAINTAINERS = [
         github="rodesai",
         discord="1144686022010097794",
     ),
-    # Maintainer(
-    #     name="Vignesh Chandramohan",
-    #     github="vigneshc",
-    #     discord="894942567513337887",
-    # ),
-    # Maintainer(
-    #     name="Paul Butler",
-    #     github="paulgb",
-    #     discord="534035699565854720",
-    # ),
+    Maintainer(
+        name="Vignesh Chandramohan",
+        github="vigneshc",
+        discord="894942567513337887",
+    ),
+    Maintainer(
+        name="Paul Butler",
+        github="paulgb",
+        discord="534035699565854720",
+    ),
     Maintainer(
         name="Li Yazhou",
         github="flaneur2020",
