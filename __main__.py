@@ -41,6 +41,11 @@ MAINTAINERS = [
         github="flaneur2020",
         discord="965845316370833408",
     ),
+    Maintainer(
+        name="Almog Gavra",
+        github="agavra",
+        discord="1154560747330867221",
+    ),
 ]
 
 
