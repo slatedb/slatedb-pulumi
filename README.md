@@ -32,3 +32,9 @@ Can be created from https://discord.com/developers. The Github actions in this r
 Can be created from https://github.com/settings/tokens?type=beta.
 
 The Github actions in this repository use [@criccomini](https://github/criccomini)'s personal access token to grant users access to the `slatedb` Github organization. (Github does not allow the use of Github tokens in Github actions to grant users access to an organization.)
+
+## Sponsorship
+
+Pulumi has graciously provided SlateDB with free usage of their Pulumi Team Edition product.
+
+<a href="https://github.com/pulumi/team-edition-for-open-source"><img src="https://www.pulumi.com/images/pricing/team-oss.svg" width="200"></a>
