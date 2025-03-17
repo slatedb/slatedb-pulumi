@@ -46,6 +46,11 @@ MAINTAINERS = [
         github="agavra",
         discord="1154560747330867221",
     ),
+    Maintainer(
+        name="David Moravek",
+        github="dmvk",
+        discord="1301098116228845620",
+    ),
 ]
 
 
