@@ -46,6 +46,11 @@ MAINTAINERS = [
         github="agavra",
         discord="1154560747330867221",
     ),
+    Maintainer(
+        name="Jason Gustafson",
+        github="hachikuji",
+        discord="1290758620664827966",
+    ),
 ]
 
 
