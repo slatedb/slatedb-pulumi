@@ -47,6 +47,11 @@ MAINTAINERS = [
         discord="1154560747330867221",
     ),
     Maintainer(
+        name="David Moravek",
+        github="dmvk",
+        discord="1301098116228845620",
+    ),
+    Maintainer(
         name="Jason Gustafson",
         github="hachikuji",
         discord="1290758620664827966",
