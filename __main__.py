@@ -56,6 +56,11 @@ MAINTAINERS = [
         github="hachikuji",
         discord="1290758620664827966",
     ),
+    Maintainer(
+        name="Hussein Nomier",
+        github="nomiero",
+        discord="697523150220689480",
+    ),
 ]
 
 
