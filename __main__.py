@@ -61,6 +61,11 @@ MAINTAINERS = [
         github="nomiero",
         discord="697523150220689480",
     ),
+    Maintainer(
+        name="Pierre Barre",
+        github="Barre",
+        discord="783046504184020992",
+    ),
 ]
 
 
