@@ -71,6 +71,11 @@ MAINTAINERS = [
         github="rkhachatryan",
         discord="1373948569673007124",
     ),
+    Maintainer(
+        name="Kaivalya Apte",
+        github="geeknarrator",
+        discord="1011012276335169798",
+    ),
 ]
 
 
