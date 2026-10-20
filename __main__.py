@@ -83,8 +83,6 @@ def main():
     for maintainer in MAINTAINERS:
         github.add_org_owner(maintainer.github)
         discord.assign_committer_role(maintainer.discord)
-        crates.add_owner(maintainer.github, "slatedb")
-        crates.add_owner(maintainer.github, "fail-parallel")
 
 
 if __name__ == "__main__":
